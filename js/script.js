@@ -20,4 +20,5 @@ $(function () {
             }
         }]
     })
+    AOS.init();
 })

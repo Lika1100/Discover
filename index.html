@@ -19,6 +19,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./css/aos.css" />
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -31,8 +32,8 @@
     <div class="wrapper">
         <header>
             <div class="contanier">
-                <a href="#" class="logo">Discover</a>
-                <nav>
+                <a href="#" class="logo" data-aos="slide-right">Discover</a>
+                <nav data-aos="slide-left">
                     <button class="mini-menu">Menu</button>
                     <ul>
                         <li>
@@ -56,13 +57,13 @@
         </header>
         <section class="home">
             <div class="contanier home-contanier">
-                <h1 class="home-title">Discover</h1>
-                <p class="home-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <h1 class="home-title" data-aos="fade-up" data-aos-delay="50">Discover</h1>
+                <p class="home-text" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Repudiandae laborum, iure perspiciatis dolore perferendis nobis?
                     Exercitationem beatae culpa optio fugiat consequuntur sunt similique quas incidunt corporis vero,
                     quo, blanditiis at.
                 </p>
-                <a class='home-link' href="#">
+                <a class='home-link' href="#" data-aos="fade-up" data-aos-delay="150">
                     Booking tour
                 </a>
             </div>
@@ -70,7 +71,7 @@
         <section class="favorable">
             <h2 class="section-title">favorable</h2>
             <div class="contanier fav-contanier">
-                <article class="fav-item">
+                <article class="fav-item" data-aos="flip-left">
                     <img class="fav-img" src="https://picsum.photos/id/10/600/600" alt="" />
                     <div class="fav-text">
                         <h6>
@@ -86,7 +87,7 @@
                         </p>
                     </div>
                 </article>
-                <article class="fav-item">
+                <article class="fav-item" data-aos="flip-left">
                     <img class="fav-img" src="https://picsum.photos/id/1006/600/600" alt="" />
                     <div class="fav-text">
                         <h6>
@@ -102,7 +103,7 @@
                         </p>
                     </div>
                 </article>
-                <article class="fav-item">
+                <article class="fav-item" data-aos="flip-left">
                     <img class="fav-img" src="https://picsum.photos/id/1015/600/600" alt="" />
                     <div class="fav-text">
                         <h6>
@@ -118,7 +119,7 @@
                         </p>
                     </div>
                 </article>
-                <article class="fav-item">
+                <article class="fav-item" data-aos="flip-left">
                     <img class="fav-img" src="https://picsum.photos/id/1018/600/600" alt="" />
                     <div class="fav-text">
                         <h6>
@@ -294,7 +295,7 @@
                     </div>
                 </div>
                 <div class="contact-form">
-                    <form action="">
+                    <form action="mail.php">
                         <input type="text" placeholder="your name">
                         <input type="email" placeholder="email">
                         <textarea placeholder="message"></textarea>
@@ -309,6 +310,7 @@
 
     <script src="./js/script.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 
