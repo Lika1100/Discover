@@ -96,6 +96,12 @@
     .tours-contanier a {
         flex: 0 49%;
     }
+    .contacts-contanier {
+        flex-direction: column;
+    }
+    .contact-info, .contact-form {
+        width: 100%;
+    }
 }
 
 @media(max-width: 600px) {
