@@ -122,3 +122,75 @@ header .contanier {
     padding: 25px 40px;
     border-radius: 4px;
 }
+
+.favorable {
+    padding: 100px 0 70px;
+}
+
+.section-title {
+   text-align: center; 
+   text-transform: uppercase;
+   font-size: 28px;
+   color: var(--green);
+   font-weight: normal;
+   margin: 0;
+   position: relative;
+}
+.section-title::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 150px;
+    background: #c2c2c2;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-75px);
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 50px;
+    background: var(--green);
+    position: absolute;
+    top: 39px;
+    left: 50%;
+    transform: translateX(-25px);
+}
+
+.fav-contanier {
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.fav-item {
+    width: 48%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.fav-text {
+   width: 280px; 
+}
+
+.fav-text h6 {
+    margin: 14px 0 25px;
+    color: var(--darkgrey);
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.fav-text p {
+    font-size: 14px;
+    color: #959595;
+    line-height: 22px;
+}
+
+.fav-img {
+    width: 40%;
+    margin-right: 30px;
+}
+
